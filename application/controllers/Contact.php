@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class work extends CI_Controller {
+class contact extends CI_Controller {
 
 	public function __construct()
 	{
@@ -12,6 +12,8 @@ class work extends CI_Controller {
     
 	public function index()
     {   
-        
+        $this->load->view('Contact');  // load script css
+        $this->load->view('home');  // reder content
+        $this->load->view('Contact'); // load script js
     }
 }
