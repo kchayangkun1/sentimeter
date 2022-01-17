@@ -12,8 +12,8 @@ class Home extends CI_Controller {
     
 	public function index()
     {   
-        $this->load->view('script-header');
-        $this->load->view('home');
-        $this->load->view('script-footer');
+        $this->load->view('script-header');  // load script css
+        $this->load->view('home');  // reder content
+        $this->load->view('script-footer'); // load script js
     }
 }
