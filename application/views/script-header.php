@@ -27,4 +27,5 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link rel="stylesheet" href="<?=base_url('assets/css/default.css');?>">
     <!--====== Style css ======-->
     <link rel="stylesheet" href="<?=base_url('assets/css/style.css');?>">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>

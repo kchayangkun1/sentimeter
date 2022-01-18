@@ -12,21 +12,11 @@ class service extends CI_Controller {
     
 	public function index()
     {   
-        
-    }
-
-    public function design()
-    {   
-        
-    }
-
-    public function decorate()
-    {   
-        
-    }
-    
-    public function detail()
-    {   
-        
+		$this->load->view('script-header');  // load script css
+		$this->load->view('header'); // render navbar
+		$this->load->view('siderbar-menu'); // donut
+		$this->load->view('service');  // reder content
+		$this->load->view('footer');
+        $this->load->view('script-footer'); // load script js
     }
 }

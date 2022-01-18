@@ -28,7 +28,10 @@ body {
   font-weight: normal;
   font-style: normal;
   color: #121212;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background-image: url('assets/images/background/bg_sen.png');
+  background-position: center;
+}
 
 * {
   margin: 0;
@@ -2289,3 +2292,50 @@ p {
     background-color: #38f9d7; }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* size */
+@media only screen and (max-width: 2560px) and (min-width: 1440px){
+  .centered {
+    position: absolute;
+    position: absolute;
+    top: 49%;
+    margin-left: 15rem;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+  }
+  .card-title-h1 {
+    color: #ffffff !important;
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 2360px) and (min-width: 1640px){
+  .centered {
+    position: absolute;
+    position: absolute;
+    top: 49%;
+    margin-left: 15rem;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+  }
+  .card-title-h1 {
+    color: #ffffff !important;
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 1920px) and (min-width: 1080px){
+  .centered {
+    position: absolute;
+    position: absolute;
+    top: 49%;
+    margin-left: 15rem;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+  }
+  .card-title-h1 {
+    color: #ffffff !important;
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 768x){}
+@media only screen and (max-width: 360px) and (min-width: 640x){}

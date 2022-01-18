@@ -5,13 +5,13 @@
         </div>
         <div class="sidebar-content">
             <div class="sidebar-logo text-center">
-                <a href="#"><img src="<?=base_url('assets/images/logo-alt.png');?>" alt="Logo"></a>
+                <a href="#"><img src="<?=base_url('assets/images/logo/LOGO_SENTIMETER_hade.png');?>" alt="Logo"></a>
             </div> <!-- logo -->
             <div class="sidebar-menu">
                 <ul>
                     <li><a href="#">HOME</a></li>
-                    <li><a href="#">SERVICES</a></li>
-                    <li><a href="#">WORK</a></li>
+                    <li><a href="<?=base_url('service');?>">SERVICES</a></li>
+                    <li><a href="<?=base_url('category');?>">WORK</a></li>
                     <li><a href="<?=base_url('contact');?>">CONTACT US</a></li>
                 </ul>
             </div> <!-- menu -->
