@@ -19,3 +19,8 @@
     <script src="<?=base_url('assets/js/wow.min.js');?>"></script>
     <!--====== Main js ======-->
     <script src="<?=base_url('assets/js/main.js');?>"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <SCript>
+          AOS.init();
+    </SCript>

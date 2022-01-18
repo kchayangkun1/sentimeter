@@ -10,8 +10,13 @@ class work extends CI_Controller {
 		$this->load->library('form_validation'); 
 	}
     
-	public function index()
+	public function category()
     {   
-        
+		$this->load->view('script-header');  // load script css
+		$this->load->view('siderbar-menu'); // donut
+		$this->load->view('banner');
+        $this->load->view('work/category');  // reder content
+		$this->load->view('footer');
+        $this->load->view('script-footer'); // load script js
     }
 }
