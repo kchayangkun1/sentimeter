@@ -20,4 +20,9 @@ class Home extends CI_Controller {
 		$this->load->view('footer');
         $this->load->view('script-footer'); // load script js
     }
+
+	public function test()
+	{
+		# code...
+	}
 }
